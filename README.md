@@ -1,0 +1,2 @@
+# Car black box
+Using the PIC18F4580 microcontroller, featuring a dashboard display with a CLCD to show real-time data such as time, gear, and speed, controlled using a matrix keypad. Data, including time, gear, and speed during gear changes, was stored in an external EEPROM using the I2C protocol, while an RTC ensured accurate timekeeping. The system included functionalities like viewing logs on the CLCD, downloading logs to a PC via UART protocol, and managing logs with options to set time and clear data.
